@@ -18,7 +18,7 @@ const Home = () => {
 						wrapper="span"
 						cursor={true}
 						repeat={0}
-						style={{ display: 'inline-block', fontSize: 20}}
+						style={{ display: 'inline-block', fontSize: 12, paddingTop: 10}}
 					/>
 				</div>
 

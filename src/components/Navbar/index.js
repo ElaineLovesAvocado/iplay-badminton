@@ -9,14 +9,14 @@ const Navbar = () => {
 					<NavLink to="/home" activeStyle>
 						Home
 					</NavLink>
-					<NavLink to="/match" activeStyle>
+					{/* <NavLink to="/match" activeStyle>
 						Match 
-					</NavLink>
+					</NavLink> */}
 					<NavLink to="/ranking" activeStyle>
 						Ranking
 					</NavLink>
 					<NavLink to="/seasonRanking" activeStyle>
-						History & Prize
+						History
 					</NavLink>
 				</NavMenu>
 			</Nav>
