@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/iplay-badminton/static/css/main.a6672ac1.css",
-    "main.js": "/iplay-badminton/static/js/main.ceb78230.js",
+    "main.css": "/iplay-badminton/static/css/main.f040672e.css",
+    "main.js": "/iplay-badminton/static/js/main.3825474b.js",
     "static/js/787.58e322c4.chunk.js": "/iplay-badminton/static/js/787.58e322c4.chunk.js",
     "static/media/SplashFinal.png": "/iplay-badminton/static/media/SplashFinal.bac649cf9f648685906e.png",
     "static/media/starbucks.png": "/iplay-badminton/static/media/starbucks.a7738f399684f1ca2b36.png",
     "static/media/GiftBox.jpeg": "/iplay-badminton/static/media/GiftBox.d892af239013519d685c.jpeg",
     "index.html": "/iplay-badminton/index.html",
-    "main.a6672ac1.css.map": "/iplay-badminton/static/css/main.a6672ac1.css.map",
-    "main.ceb78230.js.map": "/iplay-badminton/static/js/main.ceb78230.js.map",
+    "main.f040672e.css.map": "/iplay-badminton/static/css/main.f040672e.css.map",
+    "main.3825474b.js.map": "/iplay-badminton/static/js/main.3825474b.js.map",
     "787.58e322c4.chunk.js.map": "/iplay-badminton/static/js/787.58e322c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6672ac1.css",
-    "static/js/main.ceb78230.js"
+    "static/css/main.f040672e.css",
+    "static/js/main.3825474b.js"
   ]
 }

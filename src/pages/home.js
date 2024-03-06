@@ -23,10 +23,13 @@ const Home = () => {
 				</div>
 
 				<div className="intro">
-					 Score rules 比赛让分规则
+					 <div>Doubles Rule </div>				
 				</div>
 
 				<div className="rules" >
+					<div>
+						Best of 3 games of 21 points <br/><br/>
+					</div>
 					<div>
 						10:0  Women's Double  🆚  Men's Double 
 					</div>
@@ -39,46 +42,23 @@ const Home = () => {
 						5:0  Mix Double  🆚  Men's Double  
 					</div>
 
-					<div>
-						0:0   Men's Double  🆚  Men's Double  
-					</div>
-
-					<div>
-						0:0  Mix Double  🆚  Mix Double 
-					</div>
-
-					<div>
-						0:0  Women's Double  🆚  Women's Double 
-					</div>
-
 				</div>
-				<div class="ruleInChinese">
-					<div>
-						10:0  女双  🆚  男双 
-					</div>
+				
 
-					<div>
-						5:0   女双  🆚  混双  
-					</div>
-
-					<div>
-						5:0  混双  🆚  男双  
-					</div>
-
-					<div>
-						0:0  男双  🆚  男双 
-					</div>
-
-					<div>
-						0:0  混双  🆚  混双 
-					</div>
-
-					<div>
-						0:0  女双  🆚  女双
-					</div>
-
+				<div className="intro">
+					 Singles Rule (in case of monthly tie)<br/>
 				</div>
-		
+
+				<div className="rules" >
+				<div>
+						1 game of 11 points<br/><br/>
+					</div>
+
+					<div>
+						6:0  Women's Single  🆚  Men's Single 
+					</div>
+				</div>
+				
 			</div>
 		);
 	};
