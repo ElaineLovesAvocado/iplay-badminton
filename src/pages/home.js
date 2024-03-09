@@ -10,7 +10,7 @@ const Home = () => {
 				<div className="welcomeMsg">
 					<TypeAnimation
 						sequence={[
-							'Welcome to our weekly 🏸 Iplay Tuesday Night Badminton Event!',
+							'Welcome to our weekly 🏸 Iplay Tuesday Night Badminton Event! Two matches will be held each week where you will be assigned random partners and opponents.',
 							() => {
 							console.log('Sequence completed');
 							},
@@ -18,8 +18,17 @@ const Home = () => {
 						wrapper="span"
 						cursor={true}
 						repeat={0}
-						style={{ display: 'inline-block', fontSize: 12, paddingTop: 10}}
+						style={{ display: 'inline-block', fontSize: 15, paddingTop: 10, padding: 25}}
 					/>
+				</div>
+
+				<div className="quickInfo">
+					<div id='time'>
+						Time: Tuesday 8:00pm - 11:00pm
+					</div>
+					<div id='location'>
+						Location:  Iplay Badminton
+					</div>
 				</div>
 
 				<div className="intro">
@@ -28,7 +37,7 @@ const Home = () => {
 
 				<div className="rules" >
 					<div>
-						Best of 3 games of 21 points <br/><br/>
+						Best of 3 games of 21 points.  <br/><br/>
 					</div>
 					<div>
 						10:0  Women's Double  🆚  Men's Double 
