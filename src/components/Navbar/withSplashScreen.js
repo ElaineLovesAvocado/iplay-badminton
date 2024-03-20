@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../images/SplashFinal.png';
+import logo from '../../images/logo.PNG';
 import './withSplashScreen.css'
 
 
@@ -28,7 +28,7 @@ export default function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 0)
+                }, 2300)
             } catch (err) {
                 console.log(err);
                 this.setState({
