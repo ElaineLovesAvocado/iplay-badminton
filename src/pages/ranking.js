@@ -39,7 +39,7 @@ const rows = [
   createData(1, 'Jin', 	'50',	'5',	'6',	'2'),
   createData(2, 'Sin', 	'40',	'4',	'6',	'3'),
   createData(3, 'Elaine', 	'40',	'4',	'6',	'3'),
-  createData(4, 'Joe', 	'40',	'6',	'6',	'3'),
+  createData(4, 'Joe', 	'40',	'4',	'6',	'3'),
   createData(5, 'Eldon',	'30',	'3',	'4',	'4'),
   createData(6, 'XD', 	'30',	'3',	'6',	'4'),
   createData(7, 'Jack', 	'30',	'3',	'6',	'4'),
