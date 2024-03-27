@@ -69,9 +69,11 @@ export default function SeasonRanking() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <p>Upcoming rank 1 prize: $30 Starbucks Gift Card 🎉🎉🎉</p>
+        <p> Rank 1 prize: $30 Starbucks Gift Card 🎉🎉🎉</p>
+        <p> 🌟🌟🌟Yifan🌟🌟🌟 </p>
         <img src={seasonRankOneGift} height="80px" width="80px"></img>
-        <p>Upcoming rank 2 prize: Special Gift Sponsored by Amy 🎉🎉🎉</p>
+        <p> Rank 2 prize: Special Gift Sponsored by Amy 🎉🎉🎉</p>
+        <p> 🌟🌟🌟XD🌟🌟🌟 </p>
         <img src={seasonRankTwoGift} height="120px" ></img>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>

@@ -22,13 +22,17 @@ const Home = () => {
 					/>
 				</div>
 
+				<div className="intro">
+					 <div> Schedule </div>				
+				</div>
+
 				<div className="quickInfo">
-					<div id='time'>
-						Time: Tuesday 8:00pm - 11:00pm
+					<div id='schedule'>
+						8:00pm - 8:30pm:  Warm ups and free time<br/>
+						8:30pm - 9:30pm:  Doubles match <br/>
+						9:30pm - 11:00pm:  Free time <br/>
 					</div>
-					<div id='location'>
-						Location:  Iplay Badminton
-					</div>
+					
 				</div>
 
 				<div className="intro">
@@ -59,13 +63,23 @@ const Home = () => {
 				</div>
 
 				<div className="rules" >
-				<div>
-						1 game of 11 points<br/><br/>
+					<div>
+						8:0  Women's Single  🆚  Men's Single <br/><br/>
+					</div>
+					<div>
+						First Round:<br/>
+					</div>
+					<div>
+						1 game of 15 points<br/><br/>
+					</div>
+					<div>
+						Final Round:<br/>
+					</div>
+					<div>
+						1 game of 21 points<br/><br/>
 					</div>
 
-					<div>
-						6:0  Women's Single  🆚  Men's Single 
-					</div>
+					
 				</div>
 				
 			</div>
