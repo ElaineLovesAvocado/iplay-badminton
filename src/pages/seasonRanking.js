@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import seasonRankOneGift from '../images/Season1March/starbucks.png'
 import seasonRankTwoGift from '../images/Season1March/GiftBox.jpeg'
+import season2RankOneGift from '../images/Season2/Season2Gift.png'
+import season2RankTwoGift from '../images/Season2/Season2Rank2.jpg'
 
 import './seasonRanking.css'
 
@@ -77,7 +79,10 @@ export default function SeasonRanking() {
         <img src={seasonRankTwoGift} height="120px" ></img>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Coming soon ...      
+        <p> Rank 1 prize: Aeroplane Shuttlecock EG1130 一桶黑航 🎉🎉🎉</p>
+        <img src={season2RankOneGift} height="80px" width="80px"></img>
+        <p> Rank 2 prize: Sport Shoe Bag with custom name 球鞋包 🎉🎉🎉</p>
+        <img src={seasonRankTwoGift} height="120px" ></img>      
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Coming soon ...

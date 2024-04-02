@@ -67,7 +67,7 @@ const Home = () => {
 						8:0  Women's Single  🆚  Men's Single <br/><br/>
 					</div>
 					<div>
-						First Round:<br/>
+						First Round (if more than 2 ppl):<br/>
 					</div>
 					<div>
 						1 game of 15 points<br/><br/>
