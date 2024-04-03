@@ -22,53 +22,40 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 
-function createData(id, name, totalScore, OverallWins, GamesPlayed, DenseRank) {
+function createData(id, name, totalScore, OverallWins, GamesPlayed, WinRate, DenseRank) {
   return {
     id,
     name,
     totalScore,
     OverallWins,
     GamesPlayed,
+    WinRate,
     DenseRank
   };
 }
 
 // Total Score, Overall Wins, Game Played,Rank
 const rows = [
-  createData(0, 'Yifan🌟', 	'80',	'8',	'8',	'1',),
-  createData(1, 'XD🌟', 	'50',	'5',	'8',	'2',),
-  createData(6, 'Jin', 	'50',	'5',	'8',	'2',),
-  createData(2, 'Sin', 	'50',	'5',	'8',	'2',),
-  createData(3, 'Elaine', 	'50',	'5',	'8',	'2',),
-  createData(4, 'JoeZ',	'50',	'5',	'8',	'2',),
-  createData(5, 'Eldon',	'50',	'5',	'7',	'2',),
-  createData(7, 'Derek',	'40',	'4',	'4',	'3',),
-  createData(8, 'Sara', 	'40',	'4',	'8',	'3',),
-  createData(9, 'Jack', 	'30',	'3',	'8',	'4',),
-  createData(10,'LIU', 	'30',	'3',	'8',	'4',),
-  createData(11,'Amy',	'30',	'3',	'4',	'4',),
-  createData(12,'Sandy',	'30',	'3',	'4',	'4',),
-  createData(13,'Linyi', 	'20',	'2',	'6',	'5',),
-  createData(14,'Angie',	'20',	'2',	'6',	'5',),
-  createData(15,'Lei',	'20',	'2',	'6',	'5',),
-  createData(16,'Victor',	'20',	'2',	'2',	'5',),
-  createData(17,'JoeSun',	'20',	'2',	'2',	'5',),
-  createData(18,'Song', 	'20',	'2',	'4',	'5',),
-  createData(19,'EasonYang', 	'20',	'2',	'4',	'5',),
-  createData(20,'Calvin', 	'10',	'1',	'2',	'6',),
-  createData(21,'Winson',	'10',	'1',	'2',	'6',),
-  createData(22,'Jeff', 	'10',	'1',	'4',	'6',),
-  createData(23,'Wenjia', 	'10',	'1',	'2',	'6',),
-  createData(24,'Jeff🐸',	'10',	'1',	'6',	'6',),
-  createData(25,'Thomas',	'10',	'1',	'2',	'6',),
-  createData(26,'Francislee',	'10',	'1',	'4',	'6',),
-  createData(27,'小新',	'10',	'1',	'4',	'6',),
-  createData(28,'TimWang', 	'0',	'0',	'2',	'7',),
-  createData(29,'May',	'0',	'0',	'2',	'7',),
-  createData(30,'Ouyang',	'0',	'0',	'2',	'7',),
-  createData(31,'Ricky',	'0',	'0',	'4',	'7',),
-  createData(32,'Erica',	'0',	'0',	'4',	'7',),
-
+  createData(0, 'Haoming',	'20',	'2',	'2',	'100%',	'1'),
+  createData(1, 'Sara',	'20',	'2',	'2',	'100%',	'1'),
+  createData(2, 'Eldon',	'20',	'2',	'2',	'100%',	'1'),
+  createData(3, 'Song',	'20',	'2',	'2',	'100%',	'1'),
+  createData(4, 'Eason',	'20',	'2',	'2',	'100%',	'1'),
+  createData(5, 'Yifan',	'20',	'2',	'2',	'100%',	'1'),
+  createData(6, 'Elaine',	'10',	'1',	'2',	'50%',	'2'),
+  createData(7, 'Victor',	'10',	'1',	'2',	'50%',	'2'),
+  createData(8, 'Sandy',	'10',	'1',	'2',	'50%',	'2'),
+  createData(9, 'William',	'10',	'1',	'2',	'50%',	'2'),
+  createData(10, 'Jack',	'10',	'1',	'2',	'50%',	'2'),
+  createData(11,'TJin',	'10',	'1',	'2',	'50%',	'2'),
+  createData(12,'linyi',	'10',	'1',	'2',	'50%',	'2'),
+  createData(13,'XD',	'10',	'1',	'2',	'50%',	'2'),
+  createData(14,'Peter',	'0',	'0',	'2',	'0%',	'3'),
+  createData(15,'Jeff',	'0',	'0',	'2',	'0%',	'3'),
+  createData(16,'Liuxin',	'0',	'0',	'2',	'0%',	'3'),
+  createData(17,'小新',	'0',	'0',	'2',	'0%',	'3'),
+  createData(18,'Amy',	'0',	'0',	'2',	'0%',	'3'),
+  createData(19,'Francis',	'0',	'0',	'2',	'0%',	'3'),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -127,6 +114,12 @@ const headCells = [
     numeric: true,
     disablePadding: false,
     label: 'Games Played',
+  },
+  {
+    id: 'WinRate',
+    numeric: true,
+    disablePadding: false,
+    label: 'WinRate',
   },
   {
     id: 'DenseRank',

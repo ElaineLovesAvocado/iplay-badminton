@@ -46,7 +46,7 @@ function a11yProps(index) {
 }
 
 export default function SeasonRanking() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -79,9 +79,10 @@ export default function SeasonRanking() {
         <img src={seasonRankTwoGift} height="120px" ></img>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <p> Rank 1 prize: Aeroplane Shuttlecock EG1130 一桶黑航 🎉🎉🎉</p>
+        <p> Rank 1 prize & Rank 2 prize: </p>
+        <p>Aeroplane Shuttlecock EG1130 一桶黑航 🎉🎉🎉</p>
         <img src={season2RankOneGift} height="80px" width="80px"></img>
-        <p> Rank 2 prize: Sport Shoe Bag with custom name 球鞋包 🎉🎉🎉</p>
+        <p> Sport Shoe Bag with custom name 球鞋包 🎉🎉🎉</p>
         <img src={seasonRankTwoGift} height="120px" ></img>      
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>

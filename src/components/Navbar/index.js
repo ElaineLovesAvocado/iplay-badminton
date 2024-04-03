@@ -16,7 +16,7 @@ const Navbar = () => {
 						Ranking
 					</NavLink>
 					<NavLink to="/seasonRanking" activeStyle>
-						History
+						Season
 					</NavLink>
 				</NavMenu>
 			</Nav>
